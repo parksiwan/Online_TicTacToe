@@ -1,0 +1,34 @@
+<!DOCTYPE htnl>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <script type="text/javascript" src="wSocketClient.js"></script>
+    </head>
+    <body>
+        <div id="sse">
+            <h2>Tic Tac Toe</h2>
+            <p id="demo"></p>
+        </div>
+        <form>
+            <input type = "button" name = "startgame" value = "START?">
+            <br><br><br><br>
+            <table>
+                <tr>
+                    <td><input id="b1" type = "button" name = "b1" value = "      " onClick = myPosition(this.form,1)></td>
+                    <td><input id="b2" type = "button" name = "b2" value = "      " onClick = myPosition(this.form,2)></td>
+                    <td><input id="b3" type = "button" name = "b3" value = "      " onClick = myPosition(this.form,3)></td>
+                </tr>
+                <tr>
+                    <td><input id="b4" type = "button" name = "b4" value = "      " onClick = myPosition(this.form,4)></td>
+                    <td><input id="b5" type = "button" name = "b5" value = "      " onClick = myPosition(this.form,5)></td>
+                    <td><input id="b6" type = "button" name = "b6" value = "      " onClick = myPosition(this.form,6)></td>
+                </tr>
+                <tr>
+                    <td><input id="b7" type = "button" name = "b7" value = "      " onClick = myPosition(this.form,7)></td>
+                    <td><input id="b8" type = "button" name = "b8" value = "      " onClick = myPosition(this.form,8)></td>
+                    <td><input id="b9" type = "button" name = "b9" value = "      " onClick = myPosition(this.form,9)></td>
+                </tr>
+            </table>
+            <br><br>
+    </body>
+</html>
